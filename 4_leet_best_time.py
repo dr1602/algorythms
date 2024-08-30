@@ -76,3 +76,17 @@ if __name__ == "__main__":
     (max_profit), execution_time = measure_execution_time(Solution().maxProfitV2, test_case_2)
     print(f"Max Profit: {max_profit}")  # Expected: 5 (Buy at 1, sell at 6)
     print(f"Execution Time: {execution_time:.10f} seconds")
+
+
+'''
+
+Comparison and Conclusion
+Both functions maxProfit and maxProfitV2 have the same time and space complexities:
+
+Time Complexity: O(n)
+This is due to the single iteration over the input list, which makes both functions efficient in terms of time.
+Space Complexity: O(1)
+Both functions only use a constant amount of extra memory.
+While the algorithms are similar in complexity, maxProfitV2 is slightly more concise by using Python's built-in min and max functions, which may also make the code slightly easier to read and maintain.
+
+'''
